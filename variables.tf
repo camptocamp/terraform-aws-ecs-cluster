@@ -20,3 +20,8 @@ variable "availability_zones" {
   default = ["eu-west-1a", "eu-west-1b"]
 }
 
+variable "logs_retention_in_days" {
+  type    = number
+  default = 3
+}
+
